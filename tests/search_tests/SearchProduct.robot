@@ -2,6 +2,12 @@
 Documentation    Suite description
 Resource         ../../resources/resource.robot
 Default Tags    smoke
+
+*** Variables ***
+${SERVER}         backmarket.es
+${BROWSER}        Chrome
+${HOME URL}      http://${SERVER}/
+
 *** Test Cases ***
 Test title
     Open Browser To Home Page
