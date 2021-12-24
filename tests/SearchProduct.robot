@@ -1,12 +1,10 @@
 *** Settings ***
-Documentation    Suite description
-Resource         ../../resources/resource.robot
+Documentation    Search tests
+Library           SeleniumLibrary
+Resource         ../resources/resource.robot
 Default Tags    smoke
 
 *** Variables ***
-${SERVER}         backmarket.es
-${BROWSER}        Chrome
-${HOME URL}      http://${SERVER}/
 
 *** Test Cases ***
 Test title

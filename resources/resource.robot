@@ -10,7 +10,7 @@ Resource          ../resources/basic_elements/BasicElements.robot
 *** Variables ***
 ${SERVER}         backmarket.es
 ${BROWSER}        Chrome
-${HOME URL}      http://${SERVER}/
+${HOME URL}       http://${SERVER}/
 
 *** Keywords ***
 Open Browser To Home Page
