@@ -1,7 +1,11 @@
 *** Settings ***
-Documentation    Suite description
-Resource         ../../resources/resource.robot
+Documentation    Search tests
+Library           SeleniumLibrary
+Resource         ../resources/resource.robot
 Default Tags    smoke
+
+*** Variables ***
+
 *** Test Cases ***
 Test title
     Open Browser To Home Page
